@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  color: #fff;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #111, #222);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  clip-path: circle(40% at right 70%);
+  z-index: -1;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: 5vw 0;
+  border-radius: 1.302vw;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 1.302vw;
+}
+
+nav .logo {
+  font-size: 2.083vw;
+  text-transform: uppercase;
+  letter-spacing: 0.195vw;
+  font-weight: 700;
+}
+
+nav ul li {
+  font-size: 1.171vw;
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.8vw;
+  position: relative;
+}
+
+nav ul li::after {
+  content: "";
+  height: 100%;
+  border: 0.1vw solid #fff;
+  position: absolute;
+  right: 0;
+  transform: translateX(1vw);
+}
+
+nav ul li:nth-last-of-type(1):after {
+  content: none;
+}
+
+nav ul li a:hover {
+  color: #e80202;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  width: 80%;
+  margin: 8vw auto;
+}
+
+.content .text-container {
+  width: 100%;
+}
+
+.content .text-container h2 {
+  font-size: 2.604vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
+}
+
+.content .text-container p {
+  font-size: 1.171vw;
+  line-height: 1.627vw;
+  letter-spacing: 0.065vw;
+  word-break: break-word;
+  margin: 0.651vw 0 0;
+}
+
+.content .img-container {
+  width: 80%;
+}
+
+.content .img-container img {
+  width: 100%;
+}
+
+@media (max-width: 950px) {
+  body::after {
+    clip-path: circle(40% at bottom);
+  }
+
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5vw;
+  }
+
+  nav .logo {
+    font-size: 5vw;
+    margin-bottom: 1.5vw;
+  }
+
+  nav ul li {
+    font-size: 2.5vw;
+    margin: 0 1vw;
+  }
+
+  nav ul li::after {
+    transform: translateX(1.4vw);
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .content .text-container h2 {
+    font-size: 5vw;
+    margin-bottom: 3vw;
+  }
+
+  .content .text-container p {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    letter-spacing: 0.2vw;
+  }
+}
