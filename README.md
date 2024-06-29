@@ -1,6 +1,6 @@
 # Shoes Landing Page
 
-This is a simple shoes landing page created for fun. The page showcases Adidas running shoes with a minimal and modern design.
+This is a simple shoe landing page I made just for fun, The page showcases Adidas running shoe with a simple and modern design.
 
 ## Features
 
@@ -10,4 +10,4 @@ This is a simple shoes landing page created for fun. The page showcases Adidas r
 
 ## Live Demo Server
 
-You can view the live demo of the page [here](https://your-github-username.github.io/your-repo-name).
+You can preview the landing page at the following link: https://shoes-landing-page-moehurmoz.netlify.app
