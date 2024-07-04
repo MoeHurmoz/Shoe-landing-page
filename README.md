@@ -1,4 +1,4 @@
-# Shoes Landing Page
+# Shoe Landing Page
 
 This is a simple shoe landing page I made just for fun, The page showcases Adidas running shoe with a simple and modern design.
 
