@@ -10,4 +10,4 @@ This is a simple shoe landing page I made just for fun, The page showcases Adida
 
 ## Live Demo Server
 
-You can preview the landing page at the following link: https://shoes-landing-page-moehurmoz.netlify.app
+You can preview the landing page at the following link: https://shoe-landing-page-moehurmoz.netlify.app
