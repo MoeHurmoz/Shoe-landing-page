@@ -8,6 +8,11 @@ This is a simple landing page I created just for fun, the page showcases Adidas 
 - Simple and clean layout.
 - Navigation menu with links to different sections (Home, Men, Women, Kids).
 
+## Tech Stack
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling the page.
+
 ## Live Demo Server
 
 You can preview the landing page at the following link: https://shoe-landing-page-moehurmoz.netlify.app
