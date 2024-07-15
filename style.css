@@ -62,17 +62,8 @@ nav ul li {
   position: relative;
 }
 
-nav ul li::after {
-  content: "";
-  height: 100%;
-  border: 0.1vw solid #fff;
-  position: absolute;
-  right: 0;
-  transform: translateX(1vw);
-}
-
-nav ul li:nth-last-of-type(1):after {
-  content: none;
+nav ul li a {
+  transition: color 0.4s;
 }
 
 nav ul li a:hover {
